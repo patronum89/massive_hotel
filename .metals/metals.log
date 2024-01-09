@@ -1,0 +1,7 @@
+2024.01.08 16:31:21 INFO  Started: Metals version 1.2.0 in folders 'E:\Code\massive_hotel\massive_hotel' for client Visual Studio Code 1.85.1.
+2024.01.08 16:31:22 WARN  Build server is not auto-connectable.
+2024.01.08 16:31:22 WARN  no build tool detected in workspace 'E:\Code\massive_hotel\massive_hotel'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+Jan 08, 2024 6:14:08 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jan 08, 2024 6:14:14 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace

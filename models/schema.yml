@@ -1,0 +1,31 @@
+version: 2
+
+models:
+  - name: customer_data
+    description: '{{ doc("customer_data") }}'
+    columns:
+      - name: id
+        description: '{{ doc("customer_id") }}'
+        tests:
+          - unique
+          - not_null
+      - name: first_name
+        description: '{{ doc("first_name") }}'
+        tests:
+          - string_not_empty
+      - name: middle_name
+        description: '{{ doc("middle_name") }}'
+      - name: last_name
+        description: '{{ doc("last_name") }}'
+      - name: email
+        description: '{{ doc("email_id") }}'
+        tests:
+          - string_not_empty
+      - name: age
+        description: '{{ doc("age") }}'
+      - name: created_at
+        description: '{{ doc("customer_created_at") }}'
+      - name: updated_at
+        description: '{{ doc("customer_updated_at") }}'
+
+  

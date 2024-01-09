@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: raw
+    database: massive_hotel
+    schema: bronze
+    # freshness:
+    #   warn_after: {count: 1 , period: day}
+    #   warn_error: {count: 3 , period: day}
+    # loaded_at_field: updated_at
+    tables:
+      - name: cust_raw_data
+        identifier: customer_raw_data
+        description: '{{ doc("customer_raw_data") }}'
+
